@@ -1,5 +1,5 @@
-Summary:	converts a single mail to a tiny text with contents from the mail
-Summary(pl):	Konwertuje pojedyñcze maile do niewielkich tekstowych wiadomo¶ci
+Summary:	Converts a single mail to a tiny text with contents from the mail
+Summary(pl):	Konwersja pojedynczych listów do niewielkich tekstowych wiadomo¶ci
 Name:		mail2sms
 Version:	1.3.5
 Release:	1
@@ -9,19 +9,27 @@ Source0:	http://www.contactor.se/~dast/stuff/%{name}-%{version}.tar.gz
 # Source0-md5:	6aa360998779bff1d3333c7a762d0e9e
 URL:		http://www.contactor.se/~dast/mail2sms/
 BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 mail2sms converts a single (large) mail to a tiny text with contents
-from the mail. Perfectly suitable to send as an SMS message to a GSM telephone. 
+from the mail. Perfectly suitable to send as an SMS message to a GSM
+telephone.
+
+%description -l pl
+mail2sms konwertuje pojedyncze (du¿e) listy do ma³ego tekstu z tre¶ci±
+z listu, znakomicie nadaj±cego siê do wysy³ania jako SMS na telefon
+GSM.
 
 %prep
 %setup -q
+
+%build
 %{__aclocal}
 %{__autoconf}
 %configure
 
-%build
 %{__make}
 
 %install
