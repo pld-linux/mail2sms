@@ -1,12 +1,12 @@
 Summary:	converts a single mail to a tiny text with contents from the mail
 Summary(pl):	Konwertuje pojedyñcze maile do niewielkich tekstowych wiadomo¶ci
 Name:		mail2sms
-Version:	1.3.4
+Version:	1.3.5
 Release:	1
 License:	GPL v2+
 Group:		Applications/Communications
 Source0:	http://www.contactor.se/~dast/stuff/%{name}-%{version}.tar.gz
-# Source0-md5:	8466cd164ea3bd140770682e96109fd7
+# Source0-md5:	6aa360998779bff1d3333c7a762d0e9e
 URL:		http://www.contactor.se/~dast/mail2sms/
 BuildRequires:	autoconf
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
