@@ -7,7 +7,7 @@ License:	GPL v2+
 Group:		Applications/Communications
 Source0:	http://www.contactor.se/~dast/stuff/%{name}-%{version}.tar.gz
 # Source0-md5:	6aa360998779bff1d3333c7a762d0e9e
-URL:		http://www.contactor.se/~dast/mail2sms/
+URL:		http://daniel.haxx.se/projects/mail2sms/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
