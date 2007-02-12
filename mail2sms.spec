@@ -1,5 +1,5 @@
 Summary:	Converts a single mail to a tiny text with contents from the mail
-Summary(pl):	Konwersja pojedynczych listów do niewielkich tekstowych wiadomo¶ci
+Summary(pl.UTF-8):   Konwersja pojedynczych listÃ³w do niewielkich tekstowych wiadomoÅ›ci
 Name:		mail2sms
 Version:	1.3.5
 Release:	1
@@ -17,9 +17,9 @@ mail2sms converts a single (large) mail to a tiny text with contents
 from the mail. Perfectly suitable to send as an SMS message to a GSM
 telephone.
 
-%description -l pl
-mail2sms konwertuje pojedyncze (du¿e) listy do ma³ego tekstu z tre¶ci±
-z listu, znakomicie nadaj±cego siê do wysy³ania jako SMS na telefon
+%description -l pl.UTF-8
+mail2sms konwertuje pojedyncze (duÅ¼e) listy do maÅ‚ego tekstu z treÅ›ciÄ…
+z listu, znakomicie nadajÄ…cego siÄ™ do wysyÅ‚ania jako SMS na telefon
 GSM.
 
 %prep
