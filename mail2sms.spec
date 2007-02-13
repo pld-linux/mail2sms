@@ -1,5 +1,5 @@
 Summary:	Converts a single mail to a tiny text with contents from the mail
-Summary(pl.UTF-8):   Konwersja pojedynczych listów do niewielkich tekstowych wiadomości
+Summary(pl.UTF-8):	Konwersja pojedynczych listów do niewielkich tekstowych wiadomości
 Name:		mail2sms
 Version:	1.3.5
 Release:	1
