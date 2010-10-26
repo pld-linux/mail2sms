@@ -28,7 +28,8 @@ GSM.
 %build
 %{__aclocal}
 %{__autoconf}
-%configure
+%configure \
+	CFLAGS="%{rpmcflags} %{rpmcppflags}"
 
 %{__make}
 
